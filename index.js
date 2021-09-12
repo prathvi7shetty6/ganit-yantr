@@ -21,6 +21,11 @@ const divide = (num1, num2) => {
     return (num1 / num2)
 }
 
+const toPowerOf = (baseNumber, exponent) => {
+    var result = (baseNumber) ** (exponent)
+    return result
+}
+
 const testValidityOfInputs = (num1, num2) => {
     if(isNaN(num1) || isNaN(num2)) {
         throw new Error("The input provided are not numbers");
@@ -28,5 +33,5 @@ const testValidityOfInputs = (num1, num2) => {
 }
 
 module.exports = {
-    add, subtract, multiply, divide
+    add, subtract, multiply, divide, toPowerOf
 }
