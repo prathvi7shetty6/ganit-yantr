@@ -1,6 +1,6 @@
 {
   "name": "ganityantr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package contains the basic calculator functions.",
   "main": "index.js",
   "scripts": {
